@@ -1,0 +1,65 @@
+body{
+    color: white;
+    background-color: #000000;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;}
+.footer{
+    position: relative;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    left: -220px;}
+.encabezado{
+    position: relative;
+    width: 70rem;
+    left: -10rem;
+    border-radius: 6%;}
+.titulos{
+    position: relative;
+    left: -200px;
+    font-size: 30px;
+    font-weight:900;}
+.p1{ 
+    position: relative;
+    font-size: 15px;
+    left: -200px;}
+.p2{
+    position: relative;
+    font-size: 15px;
+    left: -12rem;
+    font-weight:bolder;}
+.imagenborde{border-radius: 5%;}
+.img{
+    position: relative;
+    width: 30rem;
+    border-radius: 5%;
+    left: -12rem;}
+.caja-link{ 
+    position: fixed;
+    top: 1vw;          
+    left: 77vw;
+    width: 20%;
+    background: #000000;}
+.caja-links {
+    position: fixed;   
+    top: 15vw;          
+    left: 79.5vw;}
+.links-text{
+color: rgb(255, 255, 255);
+font-size:1.2vw;
+text-decoration:wavy;}
+.imagenjuego{
+    position: fixed;
+    top: 32vw;          
+    left: 81vw;
+    width: 12%;}
+.video2{
+position: relative;
+    left: -200px;}
+.tituloespacio{
+    word-spacing: 200px;     
+    position: relative;
+    font-size: 30px;
+    left: -200px;}
