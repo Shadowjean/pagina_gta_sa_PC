@@ -63,3 +63,32 @@ position: relative;
     position: relative;
     font-size: 30px;
     left: -200px;}
+@media (max-width: 768px) {   /* móviles */
+    .encabezado {
+        width: 100%;
+        border-radius: 0;     /* opcional, más limpio en móvil */
+    }
+
+    .titulos {
+        font-size: 1.8rem;
+    }
+
+    .p1, .p2 {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    iframe {
+        width: 100% !important;   /* videos YouTube se adaptan */
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+
+    .caja-links {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    /* Si quieres menú lateral en móvil, puedes usar position: sticky o solo centrarlo */
+}
